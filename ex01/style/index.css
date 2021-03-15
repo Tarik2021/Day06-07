@@ -1,0 +1,42 @@
+html, body {
+  margin-bottom: 40px;
+  background-color: beige;
+}
+h1 {
+  color: rgb(43, 177, 65);
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  margin: 20px;
+}
+main {
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+div {
+  display: grid;
+  place-items: center;
+  border-style: solid;
+  padding: 10px;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+img {
+  border-radius: 5%;
+  width: 400px;
+  height: 300px;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+h2 {
+  font-family: "Brush Script MT";
+  font-size: 40px;
+  color: green;
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+
+
+
